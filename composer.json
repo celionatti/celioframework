@@ -1,0 +1,22 @@
+{
+    "name": "user/nation",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "celionatti",
+            "email": "amisuusman@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "aws/aws-sdk-php": "^3.279",
+        "phpmailer/phpmailer": "^6.8"
+    }
+}
